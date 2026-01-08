@@ -11,3 +11,24 @@ A Django-based web application that showcases movies. Users can view movie poste
 
 ## Project Structure
 
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/RRRccmeow/animated-giggle.git
+cd movies
+
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver
+
